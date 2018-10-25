@@ -1,0 +1,95 @@
+.add{
+    margin-top: .5em;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #9e9d9d;
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+}
+
+.add:focus{
+    border: none;
+}
+
+.adicionar{
+    position: relative;
+}
+
+.adicionar input{
+    display: inline-block;
+    float: left;
+    width: calc(100% - 31px);
+}
+
+.botao{
+    display: inline-block;
+    float: left;
+    width: auto;
+    opacity: .9;
+    border: none;
+    padding: 5px;
+    padding-bottom: 2px;
+    box-shadow: 5px 5px 20px #4e4e4e;
+    font-weight: bold;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+
+.botao:hover{
+    opacity: 1;
+}
+
+.botoes{
+    position: fixed;
+    right: 1em;
+    bottom: .5em;
+}
+
+.download{
+    background-color: #54F65F;  
+}
+
+.confirmar{
+    background-color: #54F65F;
+}
+
+button:focus, button:active, input:focus, textarea:focus, select:focus, select {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.painel-botoes{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 1em;
+    bottom: .5em;
+} 
+
+
+.limpar{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: #62599F;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    opacity: .9;
+    height: 35px;
+    z-index: 99;
+}
+
+.limpar:hover{
+    opacity: 1;
+}
+
+.salvar{
+    display: none;
+    background-color: #54F65F;
+}

@@ -1,0 +1,77 @@
+textarea, input{
+    text-align: left;
+    resize: none;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #8E81E8;
+    height: 1.5rem;;
+    resize: none;
+}
+
+input{
+    padding-bottom: 5px;
+    word-wrap: break-word;
+}
+
+#listaSobre{
+    font-size: .7em;
+}
+
+.sobre{
+    font-size: .7em;
+    max-height: 30em;
+    min-height: 27px;
+    word-wrap: break-word !important;
+    white-space: normal;
+    resize: vertical;
+}
+
+.nome{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: .8em;
+    height: auto;
+    padding: 0;
+}
+
+
+.info-cadastrais::placeholder{
+    color: rgb(255, 255, 255, .5);
+}
+
+.line{
+    border-bottom: 2px solid #8E81E8;
+    margin-bottom: .5em;
+    width:100%;
+}
+
+.meio{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+
+.info-cadastrais, cadastrais{
+    margin-top: 5px;
+    color: white;
+}
+
+#dadosCadastrais{
+    display: none;
+}
+
+#textIdade, #textCargo, #textCidade {
+    color: white;
+}
+
+.lista-input{
+    border: none;
+    width: 85%;
+    margin-left: 20px;
+    resize: none;
+    word-wrap: break-word !important;
+    white-space: normal;
+    resize: none;
+}
